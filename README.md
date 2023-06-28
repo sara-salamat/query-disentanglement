@@ -29,4 +29,6 @@ The dataset provides a valuable resource for training and evaluating models on t
 
 To modify the model architecture, you can modify the `Model.py` script. To modify training process or change the encoder base, you can modify `TrainT.py` file.
 
+## Final Notes
 
+If you have any questions, you can cantact me: sara.salamat@torontomu.ca
