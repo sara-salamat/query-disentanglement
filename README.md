@@ -7,6 +7,7 @@ The major objective of our work in this paper is to disentangle query representa
 <p align="center">
   <img src="Framework.png" alt="diagram" width="500"/>
 </p>
+
 ## Dataset
 
 
