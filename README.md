@@ -17,8 +17,16 @@ You can download the dataset from the following link: [**Dataset Download**](htt
 The dataset provides a valuable resource for training and evaluating models on tasks such as query performance prediction and semantic similarity calculation. Its balanced nature ensures a comprehensive coverage of both similar and dissimilar query scenarios, enabling robust analysis and accurate model assessment.
 
 ## Repository structure
-
+* **`data/`**: Contains the datasets used in the experiments.
+* **`output/`**: Trained models are saved in this directory
+* **`Evaluate/`**: Evaluation scripts are in this folder. The code for calculating sMARE is also there.
+* **`requirements.txt`**: List of Python dependencies required to run the code in this repository.
 
 ## Usage
+1. Clone the repository and install the requirements.
+2. Download the dataset and put it in `data/`.
+3. For training a model, run `python TrainT.py`. This command trains a model with our default architecture and saves the model in `output/` directory.
+
+To modify the model architecture, you can modify the `Model.py` script. To modify training process or change the encoder base, you can modify `TrainT.py` file.
 
 
